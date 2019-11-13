@@ -1,0 +1,42 @@
+name: PROREST
+description:
+  El PROREST promueve la conservación y restauración de los ecosistemas
+  representativos de las Áreas Naturales Protegidas, así como la protección
+  y conservación de su biodiversidad, mediante el apoyo de estudios técnicos y acciones.
+
+metadata_schema: collection_types/prorest.json
+
+restrict_site_types: true
+site_types:
+  - PROREST
+
+restrict_annotation_types: true
+annotation_types:
+  - Bounding Box
+
+restrict_item_types: true
+item_types:
+  - name: Foto pasiva
+    metadata_schema: collections/PROREST/item_types/foto_pasiva.json
+
+restrict_licence_types: true
+licence_types:
+  - Abierta
+  - Restrictiva
+
+restrict_device_types: true
+device_types:
+  - name: Camara
+    metadata_schema: collections/PROREST/device_types/camara.json
+
+restrict_event_types: true
+event_types:
+  - Animal en Foto
+
+restrict_sampling_event_types: true
+sampling_event_types:
+  - PROREST
+
+roles:
+  - name: Usuario Regular
+    metadata_schema: collections/PROREST/roles/regular.json

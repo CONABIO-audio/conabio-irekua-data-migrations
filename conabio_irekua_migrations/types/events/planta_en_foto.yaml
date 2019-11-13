@@ -1,0 +1,15 @@
+name: Planta en Foto
+description: Ocurrencia de planta en una fotografía
+
+icon: event_types/planta_en_foto.png
+term_types:
+  - clase
+  - especie
+  - familia
+  - genero
+  - nombre común
+  - orden
+
+should_imply:
+  - term_type: reino
+    value: Plantae

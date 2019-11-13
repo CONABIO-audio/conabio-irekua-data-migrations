@@ -1,0 +1,12 @@
+name: Restrictiva
+description: Licencia con restricciones que restringe el uso de los artículos asociados.
+
+metadata_schema: licence_types/restrictiva.json
+
+years_valid_for: 3
+
+can_view: false
+can_download: false
+can_view_annotations: false
+can_annotate: false
+can_vote_annotations: false

@@ -1,0 +1,10 @@
+{
+  "$id": "http://selia.conabio.gob.mx/schemas/collection_item_types/prorest/foto_pasiva.json",
+  "type": "object",
+  "title": "Foto Pasiva PROREST",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "required": [],
+  "properties": {
+  },
+  "definitions": {}
+}

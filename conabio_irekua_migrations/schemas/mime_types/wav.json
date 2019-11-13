@@ -1,0 +1,10 @@
+{
+  "$id": "http://selia.conabio.gob.mx/schemas/mime_types/wav.json",
+  "type": "object",
+  "title": "audio/x-wav",
+  "description": "Media Info schema for audio/x-wav files",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "required": [],
+  "properties": {},
+  "definitions": {}
+}

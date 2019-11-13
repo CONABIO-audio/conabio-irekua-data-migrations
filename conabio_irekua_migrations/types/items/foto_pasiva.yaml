@@ -1,0 +1,10 @@
+name: Foto pasiva
+description: Foto tomada por una cámara en un monitoreo pasivo.
+
+icon: item_types/passive_photo.png
+mime_types:
+  - image/jpeg
+  - image/png
+event_types:
+  - Animal en Foto
+  - Planta en Foto

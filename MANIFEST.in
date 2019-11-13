@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+recursive-include conabio_irekua_migrations/images *
+recursive-include conabio_irekua_migrations/licence_templates *
+recursive-include conabio_irekua_migrations/schemas *
+recursive-include conabio_irekua_migrations/types *
+recursive-include docs *

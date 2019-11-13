@@ -1,0 +1,10 @@
+{
+  "$id": "http://selia.conabio.gob.mx/schemas/sampling_event_device_types/prorest/camara.json",
+  "type": "object",
+  "title": "Camara desplegada PROREST",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "required": [],
+  "properties": {
+  },
+  "definitions": {}
+}

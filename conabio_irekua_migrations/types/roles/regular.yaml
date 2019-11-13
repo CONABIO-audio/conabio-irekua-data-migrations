@@ -1,0 +1,17 @@
+name: Usuario Regular
+description:
+  Usuario regular de la colleción.
+
+permissions:
+  - add_collection_annotation
+  - add_collection_annotation_vote
+  - add_collection_device
+  - add_collection_item
+  - add_collection_sampling_event
+  - add_collection_site
+  - download_collection_items
+  - view_collection_annotations
+  - view_collection_devices
+  - view_collection_items
+  - view_collection_sampling_events
+  - view_collection_sites

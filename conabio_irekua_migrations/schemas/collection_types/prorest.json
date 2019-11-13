@@ -1,0 +1,61 @@
+{
+  "$id": "http://selia.conabio.gob.mx/schemas/collection_types/prorest.json",
+  "type": "object",
+  "title": "PROREST",
+  "description": "Colección tipo PROREST",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "required": [
+    "Esquema de protección del sitio de monitoreo",
+    "Número de convenio",
+    "Nombre del responsable técnico en campo",
+    "Fuente de Financiamiento",
+    "Autor"],
+  "properties": {
+    "Autor": {
+      "$id": "#/properties/Autor",
+      "type": "string",
+      "title": "Autor",
+      "pattern": "^(.*)$",
+      "examples": ["Margara Juarez"]
+    },
+    "Número de Convenio": {
+      "$id": "#/properties/Numero_de_convenio",
+      "type": "string",
+      "title": "Número de convenio",
+      "examples": ["20023"]
+    },
+    "Fuente de Financiamiento": {
+      "$id": "#/properties/Fuente_de_Financiamiento",
+      "enum": [
+        "PROREST CER",
+        "PROREST CVMC",
+        "GEF Especies en Riesgo",
+        "Otro"],
+      "type": "string",
+      "title": "Fuente de financiamiento",
+      "pattern": "^(.*)$",
+      "examples": ["PROREST CER"]
+    },
+    "Nombre del responsable técnico en campo": {
+      "$id": "#/properties/Nombre_del_responsable_tecnico_en_campo",
+      "type": "string",
+      "title": "Nombre del responsable técnico en campo",
+      "pattern": "^(.*)$",
+      "examples": ["Josefa Pérez"]
+    },
+    "Esquema de protección del sitio de monitoreo": {
+      "$id": "#/properties/Esquema_de_protección_del_sitio_de_monitoreo",
+      "enum": [
+        "ANP",
+        "ADVC",
+        "Sitio Ramsar",
+        "UMA",
+        "Ninguno",
+        "Otro"],
+      "type": "string",
+      "title": "Esquema de protección del sitio de monitoreo",
+      "pattern": "^(.*)$",
+      "examples": ["ANP"]
+    }
+  }
+}

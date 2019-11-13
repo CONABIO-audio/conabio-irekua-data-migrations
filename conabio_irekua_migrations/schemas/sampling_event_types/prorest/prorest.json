@@ -1,0 +1,32 @@
+{
+  "$id": "http://selia.conabio.gob.mx/schemas/sampling_event_types/jpeg.json",
+  "type": "object",
+  "title": "PROREST",
+  "description": "Esquema de metadatos para los eventos de muestreo llevados a cabo en los programas PROREST.",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "required": ["tipo de estación", "contingencia"],
+  "properties": {
+    "contingencia": {
+      "$id": "#/properties/contingencia",
+      "enum": [
+        "No",
+        "Geológica",
+        "Hidrometeorológica",
+        "Química",
+        "Sanitaria",
+        "Agropecuaria",
+        "Otro"],
+      "type": "string",
+      "title": "Contingencia",
+      "default": "No",
+      "description": "¿Hubo algún tipo de contingencia a lo largo del muestreo? Si sí, ¿cuál?"
+    },
+    "tipo de estación": {
+      "$id": "#/properties/tipo_de_estacion",
+      "enum": ["sencilla", "doble"],
+      "type": "string",
+      "title": "Tipo de estación",
+      "default": "sencilla"
+    }
+  }
+}

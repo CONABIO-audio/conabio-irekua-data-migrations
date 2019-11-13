@@ -1,0 +1,7 @@
+name: Point
+description:
+  Point annotation for 2D objects. The annotation consists of
+  the two coordinate numbers {x, y}.
+
+annotation_schema: annotation_types/point.json
+icon: annotation_types/point.png

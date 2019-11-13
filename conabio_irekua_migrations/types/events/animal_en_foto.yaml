@@ -1,0 +1,15 @@
+name: Animal en Foto
+description: Ocurrencia de animal en una fotografía
+
+icon: event_types/animal_en_foto.png
+term_types:
+  - clase
+  - especie
+  - familia
+  - genero
+  - nombre común
+  - orden
+
+should_imply:
+  - term_type: reino
+    value: Animalia

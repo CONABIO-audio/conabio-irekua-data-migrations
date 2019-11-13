@@ -1,0 +1,10 @@
+{
+  "$id": "http://selia.conabio.gob.mx/schemas/site_types/prorest.json",
+  "type": "object",
+  "title": "PROREST",
+  "description": "Esquema para metadatos de sitios usados en los monitoreos PROREST.",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "required": [],
+  "properties": {},
+  "definitions": {}
+}

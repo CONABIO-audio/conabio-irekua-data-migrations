@@ -1,0 +1,5 @@
+name: PROREST
+description:
+  Especificacion de los sitios utilizados en proyectos PROREST.
+
+metadata_schema: site_types/prorest.json

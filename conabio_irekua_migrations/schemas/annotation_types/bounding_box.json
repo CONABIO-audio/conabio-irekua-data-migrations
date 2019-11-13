@@ -1,0 +1,39 @@
+{
+  "$id": "http://selia.conabio.gob.mx/schemas/annotation_types/bounding_box.json",
+  "type": "object",
+  "title": "Bounding Box",
+  "description": "Bounding Box annotation. The annotation consists of four numbers {top, bottom, left, right} which represent the top, botttom, left and right-most coordinates of the bounding box.",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "required": ["top", "bottom", "left", "right"],
+  "properties": {
+    "top": {
+      "$id": "#/properties/top",
+      "type": "number",
+      "title": "top",
+      "default": 0.0,
+      "examples": [1.2]
+    },
+    "left": {
+      "$id": "#/properties/left",
+      "type": "number",
+      "title": "left",
+      "default": 0.0,
+      "examples": [1.1]
+    },
+    "right": {
+      "$id": "#/properties/right",
+      "type": "number",
+      "title": "right",
+      "default": 0.0,
+      "examples": [2.3]
+    },
+    "bottom": {
+      "$id": "#/properties/bottom",
+      "type": "number",
+      "title": "bottom",
+      "default": 0.0,
+      "examples": [1.2]
+    }
+  },
+  "definitions": {}
+}

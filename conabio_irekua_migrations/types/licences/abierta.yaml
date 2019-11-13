@@ -1,0 +1,14 @@
+name: Abierta
+description: Licencia abierta que permite el uso libre de los artículos asociados.
+
+metadata_schema: licence_types/abierta.json
+document_template: abierta.txt
+
+years_valid_for: 9999
+icon: licence_types/abierta.png
+
+can_view: true
+can_download: true
+can_view_annotations: true
+can_annotate: true
+can_vote_annotations: true

@@ -1,0 +1,10 @@
+{
+  "$id": "http://selia.conabio.gob.mx/schemas/mime_types/jpeg.json",
+  "type": "object",
+  "title": "image/jpeg",
+  "description": "Media Info schema for image/jpeg files",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "required": [],
+  "properties": {},
+  "definitions": {}
+}

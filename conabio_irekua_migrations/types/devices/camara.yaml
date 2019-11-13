@@ -1,0 +1,8 @@
+name: Camara
+description:
+  Dispositivo utilizado para capturar imágenes o fotografías.
+
+icon: device_types/camara.png
+mime_types:
+  - image/png
+  - image/jpeg

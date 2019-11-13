@@ -1,0 +1,10 @@
+{
+  "$id": "http://selia.conabio.gob.mx/schemas/entailment_types/taxonomia_catalogos_conabio.json",
+  "type": "object",
+  "title": "Taxonomía Conabio",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "required": [],
+  "properties": {
+  },
+  "definitions": {}
+}

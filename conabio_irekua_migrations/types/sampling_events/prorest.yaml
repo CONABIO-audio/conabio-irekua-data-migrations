@@ -1,0 +1,14 @@
+name: PROREST
+description:
+  Especificación de evento de muestreo para proyectos PROREST.
+
+metadata_schema: sampling_event_types/prorest/prorest.json
+
+restrict_device_types: true
+device_types:
+  - name: Camara
+    metadata_schema : sampling_event_types/prorest/devices/camara.json
+
+restrict_site_types: true
+site_types:
+  - PROREST

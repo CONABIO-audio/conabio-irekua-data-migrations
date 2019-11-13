@@ -1,0 +1,8 @@
+name: Bounding Box
+description:
+  Bounding Box annotation. The annotation consists of four numbers
+  {top, bottom, left, right} which represent the top, botttom, left
+  and right-most coordinates of the bounding box.
+
+annotation_schema: annotation_types/bounding_box.json
+icon: annotation_types/bounding_box.png

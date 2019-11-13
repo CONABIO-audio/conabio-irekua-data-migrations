@@ -1,0 +1,10 @@
+{
+  "$id": "http://selia.conabio.gob.mx/schemas/collection_role/prorest/regular.json",
+  "type": "object",
+  "title": "Usuario Regular PROREST",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "required": [],
+  "properties": {
+  },
+  "definitions": {}
+}

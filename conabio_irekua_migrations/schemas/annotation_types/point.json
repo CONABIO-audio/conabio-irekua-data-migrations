@@ -1,0 +1,25 @@
+{
+  "$id": "http://selia.conabio.gob.mx/schemas/annotation_types/point.json",
+  "type": "object",
+  "title": "Point",
+  "description": "Point annotation for 2D objects. The annotation consists of the two coordinate numbers {x, y}.",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "required": ["x", "y"],
+  "properties": {
+    "x": {
+      "$id": "#/properties/x",
+      "type": "number",
+      "title": "x",
+      "default": 0.0,
+      "examples": [10.3]
+    },
+    "y": {
+      "$id": "#/properties/y",
+      "type": "number",
+      "title": "y",
+      "default": 0.0,
+      "examples": [-20.2]
+    }
+  },
+  "definitions": {}
+}
