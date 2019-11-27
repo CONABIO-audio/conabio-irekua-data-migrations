@@ -6,7 +6,7 @@ class Migration(BaseMigration):
         ('conabio_irekua_migrations', 'event_types'),
     ]
 
-    types_subdir = 'roles'
+    items_subdir = 'types/roles'
 
     def load_models(self, apps):
         self.Role = apps.get_model('irekua_database', 'Role')

@@ -7,7 +7,7 @@ class Migration(BaseMigration):
         ('conabio_irekua_migrations', 'role_types'),
     ]
 
-    types_subdir = 'licences'
+    items_subdir = 'types/licences'
 
     def load_models(self, apps):
         self.LicenceType = apps.get_model('irekua_database', 'LicenceType')

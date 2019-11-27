@@ -7,7 +7,7 @@ class Migration(BaseMigration):
         ('conabio_irekua_migrations', 'mime_types'),
     ]
 
-    types_subdir = 'devices'
+    items_subdir = 'types/devices'
 
     def load_models(self, apps):
         self.DeviceType = apps.get_model('irekua_database', 'DeviceType')

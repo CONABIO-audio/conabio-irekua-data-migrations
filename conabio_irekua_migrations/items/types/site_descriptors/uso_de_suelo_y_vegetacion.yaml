@@ -1,0 +1,5 @@
+name: Uso de suelo y vegetación
+description: Uso de suelo y vegetación modificado por CONABIO
+metadata: >
+  El presente mapa es una agrupación de las categorías de uso del suelo y vegetación a escala 1:250000, publicadas en las 'Cartas de uso del suelo y vegetación' del Instituto Nacional de Estadística, Geografía e Informática (INEGI), (1981-1991) y proporcionadas en forma digital por el Instituto Nacional de Ecología (INE), a través de la Dirección General de Ordenamiento Ecológico (DGOE). Las cartas digitales se editaron con la finalidad de reducir el tamaño y facilitar el manejo de la información cartográfica digital a escala 1: 1000000. Para su elaboración se agruparon las 375 clases de uso del suelo y vegetación que aparecen en las cartas originales en 27 grupos; así mismo, se eliminaron áreas iguales o menores a 25 ha (compilación cartográfica en la escala 1:1000000).
+source: http://geoportal.conabio.gob.mx/metadatos/doc/html/usv731mgw.html

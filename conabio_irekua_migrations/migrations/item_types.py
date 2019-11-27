@@ -7,7 +7,7 @@ class Migration(BaseMigration):
         ('conabio_irekua_migrations', 'sampling_event_types'),
     ]
 
-    types_subdir = 'items'
+    items_subdir = 'types/items'
 
     def load_models(self, apps):
         self.ItemType = apps.get_model('irekua_database', 'ItemType')

@@ -6,7 +6,7 @@ class Migration(BaseMigration):
         ('conabio_irekua_migrations', 'catalogos_taxonomicos_conabio'),
     ]
 
-    types_subdir = 'annotations'
+    items_subdir = 'types/annotations'
 
     def load_models(self, apps):
         self.AnnotationType = apps.get_model('irekua_database', 'AnnotationType')

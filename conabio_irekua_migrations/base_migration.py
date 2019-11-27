@@ -1,21 +1,21 @@
+from abc import abstractmethod
 import glob
 import os
 import json
-import yaml
-from abc import abstractmethod
 
 from django.core.files import File
 from django.db import migrations
+import yaml
 
 from conabio_irekua_migrations import APP_DIRECTORY
-from conabio_irekua_migrations import TYPES_DIR
+from conabio_irekua_migrations import ITEMS_DIR
 from conabio_irekua_migrations import IMAGES_DIR
 from conabio_irekua_migrations import SCHEMA_DIR
 from conabio_irekua_migrations import LICENCE_TEMPLATES_DIR
 
 
 class BaseMigration(migrations.Migration):
-    types_subdir = None
+    items_subdir = None
 
     def __init__(self, name, app_label):
         super().__init__(name, app_label)
@@ -33,8 +33,8 @@ class BaseMigration(migrations.Migration):
     def load_files(self):
         return glob.glob(os.path.join(
             APP_DIRECTORY,
-            TYPES_DIR,
-            self.types_subdir,
+            ITEMS_DIR,
+            self.items_subdir,
             '*.yaml'
         ))
 

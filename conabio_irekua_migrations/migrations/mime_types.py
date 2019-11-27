@@ -6,7 +6,7 @@ class Migration(BaseMigration):
         ('conabio_irekua_migrations', 'annotation_types'),
     ]
 
-    types_subdir = 'mimes'
+    items_subdir = 'types/mimes'
 
     def load_models(self, apps):
         self.MimeType = apps.get_model('irekua_database', 'MimeType')
