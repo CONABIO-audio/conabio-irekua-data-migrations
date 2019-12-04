@@ -19,6 +19,7 @@ setup(
     author='CONABIO, Gustavo Everardo Robredo Esquivelzeta, Santiago Martínez Balvanera',
     author_email='erobredo@conabio.gob.mx, smartinez@conabio.gob.mx',
     install_requires=[
+        'irekua-dev-settings',
         'irekua-database',
         'tqdm',
         'solr-conabio',
